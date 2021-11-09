@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:rgb(42, 163, 243);
+}
+.FINN-CORPO{
+    width: 70%;
+    height: 50%;
+    border-radius: 20% 20% 0% 0%;
+    background-color: cornsilk;
+    position:relative;
+    left: 20%;
+    z-index: -1;
+}
+.bem-vindo{
+    position: absolute;
+    top: 5%;
+   left: 35%;
+}
+.paragrafo{
+    position: absolute;
+    top: 15%;
+   left: 25%;
+}
+.cabeça{
+    width: 60%;
+    height: 35%;
+    position:absolute;
+    left: 25%;
+    top: 35%;
+    border-radius:50%;
+    background-color: rgb(252, 224, 193);
+}
+.olho-esquerdo{
+    width: 5%;
+    height: 5%;
+    position:absolute;
+    left: 42%;
+    top: 45%;
+    border-radius:50%;
+background-color: rgb(6, 7, 7);
+}
+.olho-direito{
+    width: 5%;
+    height: 5%;
+    position:absolute;
+    left: 60%;
+    top: 45%;
+    border-radius:50%;
+background-color: rgb(6, 7, 7);
+}
+.caixa{
+    width: 5%;
+    height: 5%;
+    position:absolute;
+    left: 40%;
+    top: 55%;
+}
+.botao{
+background-color: green;
+    width: 20%;
+    height: 6%;
+    position:absolute;
+    top: 85%;
+    left: 45%;
+    border-radius:10%;
+    border: indigo;
+    display: flex;
+}
+.Entrar{
+    position:absolute;
+    top: 85%;
+    left: 48%;
+    color: ivory;
+    width: 5%;
+    height: 5%;
+}
